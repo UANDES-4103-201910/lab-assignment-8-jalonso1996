@@ -174,3 +174,23 @@
         </div>
       </div>
     </div>
+    <div class="text">
+      <div id="onscreenkeys">
+      </div>
+    </div>
+
+    <div class="hidebutton">
+    <button type="Submit" onclick="showandhide()">Hide and Show</button>
+  </div>
+
+<script>
+  function showandhide(){
+    var x = document.getElementById("kcontainer");
+    if(x.style.display == "none"){
+      x.style.display = "block";
+    }
+    else {
+      x.style.display = "none";
+    }
+  }
+</script>
